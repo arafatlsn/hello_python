@@ -1,5 +1,7 @@
-x = 5
-if (x == 5):
-  print("x equal ", x)
+age = int(input("give your age"));
+if age > 18:
+  print("ADULT")
+elif  age == 18:
+  print("JUST ADULT")
 else:
-  print("x equal any others")
+  print("NOT ADULT")

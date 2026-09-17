@@ -37,7 +37,22 @@
 # 6
 # 8
 
-total = 0;
-for i in range(1, 101):
-  total = total + i;
 
+# # 1 to 100 all odd numbers summation
+# total = 0;
+# for i in range(1, 101, 2):
+#   total = total + i;
+# print(total)
+
+# # WHILE LOOP
+# i = 1;
+# sum = 0;
+# while i < 101:
+#   sum = sum + i;
+#   i = i+1;
+
+# print(sum)
+
+fruites = ['mango', 'banana', 'pineapple', 'orange', 'jackfruite'];
+for fruite in range(0, len(fruites), 2):
+  print(fruites[fruite])  
